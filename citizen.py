@@ -15,7 +15,9 @@ def register_citizen():
     age = input("Age: ").strip()
     location = input("Location / Region: ").strip()
     contact = input("Contact (email/phone): ").strip()
-    citizen = {"citizen_id": utils.gen_id("cit"), "name": name, "age": age, "location": location, "contact": contact}
+    n=name.split()
+    nn="cit_"+n[0]
+    citizen = {"citizen_id": nn, "name": name, "age": age, "location": location, "contact": contact}
     citizens.append(citizen)
     save_json("citizens", citizens)
     print("Registered. Your Citizen ID:", citizen["citizen_id"])

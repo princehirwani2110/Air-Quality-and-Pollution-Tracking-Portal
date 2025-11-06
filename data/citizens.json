@@ -26,5 +26,26 @@
     "age": "18",
     "location": "Lucknow",
     "contact": "9999999999"
+  },
+  {
+    "citizen_id": "cit_4286d12f",
+    "name": "Akka Matherchod",
+    "age": "69",
+    "location": "Vellore",
+    "contact": "6969696969"
+  },
+  {
+    "citizen_id": "cit_443dbec1",
+    "name": "Akka Behankilodi",
+    "age": "69",
+    "location": "Chennai",
+    "contact": "6969696969"
+  },
+  {
+    "citizen_id": "cit_Akka",
+    "name": "Akka SaliBehankilodi",
+    "age": "669",
+    "location": "Chennai",
+    "contact": "69696969"
   }
 ]
