@@ -26,5 +26,12 @@
     "age": "18",
     "location": "Lucknow",
     "contact": "9999999999"
+  },
+  {
+    "citizen_id": "cit_prince",
+    "name": "prince",
+    "age": "18",
+    "location": "Vellore",
+    "contact": "88"
   }
 ]

@@ -897,7 +897,6 @@
       "O3": 207.9,
       "SO2": 86.7
     },
-    
     "health_risk": ""
   },
   {
@@ -4514,230 +4513,239 @@
     },
     "health_risk": ""
   },
-{
-  "record_id": "rec_vel_1",
-  "region": "Vellore",
-  "date": "2025-01-01",
-  "AQI": 82,
-  "pollutants": {
-    "PM2.5": 28.5,
-    "PM10": 54.2,
-    "NO2": 14.1,
-    "CO": 0.42,
-    "O3": 23.4,
-    "SO2": 4.9
+  {
+    "record_id": "rec_vel_1",
+    "region": "Vellore",
+    "date": "2025-01-01",
+    "AQI": 82,
+    "pollutants": {
+      "PM2.5": 28.5,
+      "PM10": 54.2,
+      "NO2": 14.1,
+      "CO": 0.42,
+      "O3": 23.4,
+      "SO2": 4.9
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_2",
-  "region": "Vellore",
-  "date": "2025-01-02",
-  "AQI": 93,
-  "pollutants": {
-    "PM2.5": 35.2,
-    "PM10": 60.1,
-    "NO2": 11.8,
-    "CO": 0.50,
-    "O3": 28.9,
-    "SO2": 6.1
+  {
+    "record_id": "rec_vel_2",
+    "region": "Vellore",
+    "date": "2025-01-02",
+    "AQI": 93,
+    "pollutants": {
+      "PM2.5": 35.2,
+      "PM10": 60.1,
+      "NO2": 11.8,
+      "CO": 0.5,
+      "O3": 28.9,
+      "SO2": 6.1
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_3",
-  "region": "Vellore",
-  "date": "2025-01-03",
-  "AQI": 65,
-  "pollutants": {
-    "PM2.5": 22.7,
-    "PM10": 41.9,
-    "NO2": 9.6,
-    "CO": 0.33,
-    "O3": 21.5,
-    "SO2": 3.2
+  {
+    "record_id": "rec_vel_3",
+    "region": "Vellore",
+    "date": "2025-01-03",
+    "AQI": 65,
+    "pollutants": {
+      "PM2.5": 22.7,
+      "PM10": 41.9,
+      "NO2": 9.6,
+      "CO": 0.33,
+      "O3": 21.5,
+      "SO2": 3.2
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_4",
-  "region": "Vellore",
-  "date": "2025-01-04",
-  "AQI": 118,
-  "pollutants": {
-    "PM2.5": 48.1,
-    "PM10": 79.6,
-    "NO2": 18.9,
-    "CO": 0.62,
-    "O3": 36.4,
-    "SO2": 7.4
+  {
+    "record_id": "rec_vel_4",
+    "region": "Vellore",
+    "date": "2025-01-04",
+    "AQI": 118,
+    "pollutants": {
+      "PM2.5": 48.1,
+      "PM10": 79.6,
+      "NO2": 18.9,
+      "CO": 0.62,
+      "O3": 36.4,
+      "SO2": 7.4
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_5",
-  "region": "Vellore",
-  "date": "2025-01-05",
-  "AQI": 77,
-  "pollutants": {
-    "PM2.5": 26.3,
-    "PM10": 48.1,
-    "NO2": 10.2,
-    "CO": 0.41,
-    "O3": 22.7,
-    "SO2": 4.5
+  {
+    "record_id": "rec_vel_5",
+    "region": "Vellore",
+    "date": "2025-01-05",
+    "AQI": 77,
+    "pollutants": {
+      "PM2.5": 26.3,
+      "PM10": 48.1,
+      "NO2": 10.2,
+      "CO": 0.41,
+      "O3": 22.7,
+      "SO2": 4.5
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_6",
-  "region": "Vellore",
-  "date": "2025-01-06",
-  "AQI": 142,
-  "pollutants": {
-    "PM2.5": 62.5,
-    "PM10": 96.8,
-    "NO2": 22.4,
-    "CO": 0.88,
-    "O3": 41.7,
-    "SO2": 9.8
+  {
+    "record_id": "rec_vel_6",
+    "region": "Vellore",
+    "date": "2025-01-06",
+    "AQI": 142,
+    "pollutants": {
+      "PM2.5": 62.5,
+      "PM10": 96.8,
+      "NO2": 22.4,
+      "CO": 0.88,
+      "O3": 41.7,
+      "SO2": 9.8
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_7",
-  "region": "Vellore",
-  "date": "2025-01-07",
-  "AQI": 55,
-  "pollutants": {
-    "PM2.5": 17.9,
-    "PM10": 36.5,
-    "NO2": 7.1,
-    "CO": 0.25,
-    "O3": 18.4,
-    "SO2": 2.9
+  {
+    "record_id": "rec_vel_7",
+    "region": "Vellore",
+    "date": "2025-01-07",
+    "AQI": 55,
+    "pollutants": {
+      "PM2.5": 17.9,
+      "PM10": 36.5,
+      "NO2": 7.1,
+      "CO": 0.25,
+      "O3": 18.4,
+      "SO2": 2.9
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_8",
-  "region": "Vellore",
-  "date": "2025-01-08",
-  "AQI": 128,
-  "pollutants": {
-    "PM2.5": 54.2,
-    "PM10": 83.1,
-    "NO2": 19.7,
-    "CO": 0.72,
-    "O3": 39.2,
-    "SO2": 8.7
+  {
+    "record_id": "rec_vel_8",
+    "region": "Vellore",
+    "date": "2025-01-08",
+    "AQI": 128,
+    "pollutants": {
+      "PM2.5": 54.2,
+      "PM10": 83.1,
+      "NO2": 19.7,
+      "CO": 0.72,
+      "O3": 39.2,
+      "SO2": 8.7
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_9",
-  "region": "Vellore",
-  "date": "2025-01-09",
-  "AQI": 103,
-  "pollutants": {
-    "PM2.5": 38.9,
-    "PM10": 69.5,
-    "NO2": 15.3,
-    "CO": 0.58,
-    "O3": 31.1,
-    "SO2": 6.3
+  {
+    "record_id": "rec_vel_9",
+    "region": "Vellore",
+    "date": "2025-01-09",
+    "AQI": 103,
+    "pollutants": {
+      "PM2.5": 38.9,
+      "PM10": 69.5,
+      "NO2": 15.3,
+      "CO": 0.58,
+      "O3": 31.1,
+      "SO2": 6.3
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_10",
-  "region": "Vellore",
-  "date": "2025-01-10",
-  "AQI": 157,
-  "pollutants": {
-    "PM2.5": 67.8,
-    "PM10": 104.4,
-    "NO2": 23.1,
-    "CO": 1.02,
-    "O3": 45.5,
-    "SO2": 10.9
+  {
+    "record_id": "rec_vel_10",
+    "region": "Vellore",
+    "date": "2025-01-10",
+    "AQI": 157,
+    "pollutants": {
+      "PM2.5": 67.8,
+      "PM10": 104.4,
+      "NO2": 23.1,
+      "CO": 1.02,
+      "O3": 45.5,
+      "SO2": 10.9
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_11",
-  "region": "Vellore",
-  "date": "2025-01-11",
-  "AQI": 88,
-  "pollutants": {
-    "PM2.5": 30.2,
-    "PM10": 55.3,
-    "NO2": 12.6,
-    "CO": 0.44,
-    "O3": 26.4,
-    "SO2": 5.7
+  {
+    "record_id": "rec_vel_11",
+    "region": "Vellore",
+    "date": "2025-01-11",
+    "AQI": 88,
+    "pollutants": {
+      "PM2.5": 30.2,
+      "PM10": 55.3,
+      "NO2": 12.6,
+      "CO": 0.44,
+      "O3": 26.4,
+      "SO2": 5.7
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_12",
-  "region": "Vellore",
-  "date": "2025-01-12",
-  "AQI": 119,
-  "pollutants": {
-    "PM2.5": 49.4,
-    "PM10": 81.2,
-    "NO2": 18.1,
-    "CO": 0.61,
-    "O3": 37.2,
-    "SO2": 8.1
+  {
+    "record_id": "rec_vel_12",
+    "region": "Vellore",
+    "date": "2025-01-12",
+    "AQI": 119,
+    "pollutants": {
+      "PM2.5": 49.4,
+      "PM10": 81.2,
+      "NO2": 18.1,
+      "CO": 0.61,
+      "O3": 37.2,
+      "SO2": 8.1
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_13",
-  "region": "Vellore",
-  "date": "2025-01-13",
-  "AQI": 73,
-  "pollutants": {
-    "PM2.5": 25.1,
-    "PM10": 45.8,
-    "NO2": 11.1,
-    "CO": 0.37,
-    "O3": 22.1,
-    "SO2": 4.0
+  {
+    "record_id": "rec_vel_13",
+    "region": "Vellore",
+    "date": "2025-01-13",
+    "AQI": 73,
+    "pollutants": {
+      "PM2.5": 25.1,
+      "PM10": 45.8,
+      "NO2": 11.1,
+      "CO": 0.37,
+      "O3": 22.1,
+      "SO2": 4.0
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_14",
-  "region": "Vellore",
-  "date": "2025-01-14",
-  "AQI": 146,
-  "pollutants": {
-    "PM2.5": 63.4,
-    "PM10": 95.7,
-    "NO2": 20.4,
-    "CO": 0.86,
-    "O3": 43.5,
-    "SO2": 9.4
+  {
+    "record_id": "rec_vel_14",
+    "region": "Vellore",
+    "date": "2025-01-14",
+    "AQI": 146,
+    "pollutants": {
+      "PM2.5": 63.4,
+      "PM10": 95.7,
+      "NO2": 20.4,
+      "CO": 0.86,
+      "O3": 43.5,
+      "SO2": 9.4
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-},
-{
-  "record_id": "rec_vel_15",
-  "region": "Vellore",
-  "date": "2025-01-15",
-  "AQI": 59,
-  "pollutants": {
-    "PM2.5": 19.8,
-    "PM10": 38.3,
-    "NO2": 7.9,
-    "CO": 0.28,
-    "O3": 17.2,
-    "SO2": 3.5
+  {
+    "record_id": "rec_vel_15",
+    "region": "Vellore",
+    "date": "2025-01-15",
+    "AQI": 59,
+    "pollutants": {
+      "PM2.5": 19.8,
+      "PM10": 38.3,
+      "NO2": 7.9,
+      "CO": 0.28,
+      "O3": 17.2,
+      "SO2": 3.5
+    },
+    "health_risk": ""
   },
-  "health_risk": ""
-}
-
+  {
+    "record_id": "rec_b228a118",
+    "region": "Vellore",
+    "date": "1",
+    "AQI": 1,
+    "pollutants": {
+      "PM2.5": 12.0
+    },
+    "health_risk": ""
+  }
 ]
