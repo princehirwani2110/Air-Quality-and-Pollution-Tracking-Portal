@@ -1,12 +1,4 @@
-"""Entry point for the Air Quality CLI.
-
-This file now delegates admin and citizen functionality to separate modules:
-- admin.py
-- citizen.py
-
-Run with: python main.py
-"""
-
+#made by RANA YASH RAJ PRATAP SINGH
 import sys
 import utils
 import admin
