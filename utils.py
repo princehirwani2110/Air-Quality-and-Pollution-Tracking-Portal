@@ -78,8 +78,6 @@ def find_by_id(list_obj, key_name, key_value):
             return item
     return None
 
-
-# Sample data creation moved to utils so main can call it easily
 def create_sample_data():
     pollutants = [
         {"pollutant_id":"pol_pm25","name":"PM2.5","description":"Fine particulate matter (µg/m³)","safe_limit":60},
@@ -111,7 +109,7 @@ def create_sample_data():
     air = []
     random.seed(42)
     for city in cities:
-        for day in range(1,16):  # Jan 1-15, 2025
+        for day in range(1,16): 
             date = datetime.date(2025,1,day).isoformat()
             aqi = random.randint(50,400)
             pm25 = round(aqi * random.uniform(0.3,0.9),1)

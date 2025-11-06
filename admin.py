@@ -5,7 +5,6 @@ import csv
 from collections import defaultdict
 import utils
 
-# Expose helpers from utils namespace for convenience
 load_json = utils.load_json
 save_json = utils.save_json
 gen_id = utils.gen_id
@@ -24,7 +23,6 @@ def admin_login():
         return True
     print("Invalid credentials.")
     return False
-
 
 def admin_menu():
     while True:
@@ -53,7 +51,6 @@ def admin_menu():
             break
         else:
             print("Invalid choice.")
-
 
 def add_air_quality_record():
     air = load_json("air")

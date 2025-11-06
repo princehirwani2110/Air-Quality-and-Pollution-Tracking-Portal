@@ -14,14 +14,6 @@ Repository layout
 - `utils.py` - Shared helpers: data file paths, JSON load/save, ID generator, table printing, sample-data creation.
 - `data/` - JSON files used by the app: `air_quality.json`, `citizens.json`, `pollutants.json`, `alerts.json`, `guidelines.json`.
 
-Running the app
----------------
-From the project root (where `main.py` is located) run:
-
-```bash
-python3 main.py
-```
-
 The program is interactive. The main menu options are:
 1. Admin Login
 2. Citizen Login
@@ -33,28 +25,10 @@ Admin credentials
 - Username: `admin`
 - Password: `admin123`
 
-Data and sample content
------------------------
-On first run the app will create the `data/` directory and populate sample data (pollutants/guidelines/citizens/air/alerts) if the files are empty. The sample data generation is performed by `utils.ensure_sample_data()`.
-
 Dependencies
 ------------
 - Standard Python 3 (tested with Python 3.8+).
 - Optional: `tabulate` package for nicer table output. If it's not installed the app falls back to plain text tables. To install it:
-
-```bash
-pip install tabulate
-```
-
-Notes
------
-- I refactored the code so admin and citizen functionality live in `admin.py` and `citizen.py` respectively and shared helpers are in `utils.py`.
-- The CLI behavior and prompts remain the same as the original program.
-- If you want, I can add a `README.md` (Markdown), unit tests for `utils`, or a small test harness to exercise admin/citizen flows non-interactively.
-
-Contact
--------
-If you want additional restructuring (packaging the app, adding tests, or a web UI), tell me which direction you'd like to take next.
 
 Detailed code explanation
 ------------------------
@@ -132,32 +106,8 @@ This section explains the implementation and structure of the code so contributo
 		 - `access_guidelines()` — prints the health guidelines loaded from `guidelines.json`.
 		 - `manage_profile(citizen)` — update name/age/location/contact and save changes.
 
-Developer notes, edge cases, and suggested improvements
------------------------------------------------------
-- Input validation: Right now, user input is permissive (e.g., dates are accepted as strings). Consider adding validation for date formats and numeric ranges.
-- Error handling: `load_json()` returns [] on parse error to avoid crashing. This can mask corrupted files — adding logging or backup/restore would help.
-- Concurrency: For safe multi-user or multi-process use, migrate from JSON files to SQLite or a small REST API + DB.
-- Tests: Add unit tests for `utils` functions and a couple of integration tests that run small flows with a temporary data directory.
-- Packaging: If you want the app importable as a package, add `pyproject.toml` or `setup.cfg` and convert imports to package-relative forms.
-
 Quick examples (interactive flows)
 ---------------------------------
 - Admin: run program, select Admin Login → use `admin` / `admin123`, then pick options from Admin Menu to add records or generate reports.
 - Citizen: select Register as New Citizen to get a `citizen_id`, then choose Citizen Login and enter that id to see the citizen menu.
 
-Quality gates & local checks
----------------------------
-- Build: no compiled assets. Uses only stdlib + optional `tabulate`.
-- Lint/Typecheck: none included. If you add `flake8`/`mypy`, run them before merging.
-- Tests: none included. I recommend adding a small test suite under `tests/`.
-
-What I changed earlier (refactor summary)
----------------------------------------
-- Extracted shared helpers and sample-data creation into `utils.py`.
-- Moved admin functionality into `admin.py` and citizen functionality into `citizen.py`.
-- Updated `main.py` to delegate to the new modules and kept interactive behavior unchanged.
-
-Next steps I can help with (pick one):
-- Add `README.md` (Markdown) and commit it.
-- Add simple unit tests for `utils.py` and a pytest harness for admin/citizen flows that use a temp directory.
-- Replace JSON files with an SQLite backend for safer concurrent access.

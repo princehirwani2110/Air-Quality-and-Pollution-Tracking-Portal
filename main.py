@@ -12,7 +12,6 @@ import utils
 import admin
 import citizen
 
-
 def main_menu():
     utils.ensure_sample_data()
     print("=== Air Quality & Pollution Tracking Portal ===")
@@ -23,7 +22,6 @@ def main_menu():
             if admin.admin_login():
                 admin.admin_menu()
         elif ch == "2":
-            # citizen_login prompts for ID and opens menu when found
             citizen.citizen_login()
         elif ch == "3":
             citizen.register_citizen()
