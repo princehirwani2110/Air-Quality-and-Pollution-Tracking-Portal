@@ -1,5 +1,5 @@
 # Air Quality & Pollution Tracking Portal (CLI)
-# made by AKSHIT JAIN
+
 A simple menu-driven command-line application to track air quality and pollutant data. The project provides two roles:
 
 - **Admin** — manage air quality records, pollutants, alerts and generate reports.
