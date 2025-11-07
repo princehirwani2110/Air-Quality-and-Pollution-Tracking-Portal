@@ -121,34 +121,3 @@ Notes:
 {"alert_id":"alert_xxx","region":"Delhi","AQI_level":"Very Unhealthy","status":"active","issue_date":"2025-01-10","expiry_date":"2025-01-12"}
 ```
 
----
-
-## Known limitations & suggestions
-
-- File-based storage (JSON) is simple but not safe for concurrent writes. If you need multi-process or multi-user writes, consider switching to SQLite or a small server + DB.
-- Input validation is minimal. Dates are accepted as free-form strings. Consider validating with `datetime.strptime` and adding ranges for numerics.
-- `load_json` swallows parse errors and returns `[]`, which avoids crashes but can hide corrupt files. Consider adding logging and backups before overwriting files.
-- No automated tests are included — adding unit tests for `utils` and a couple of integration tests for admin/citizen flows is recommended.
-
----
-
-## Development & recommended next steps
-
-Pick any of these and I can implement them for you:
-
-1. Add `README.md` (this file) and keep `README.txt` (done).
-2. Add tests using `pytest` and a `tests/` directory. Tests should use a temporary directory or monkeypatch `DATA_DIR` to avoid changing your real `data/` files.
-3. Add a `requirements.txt` or `pyproject.toml` if you plan to package or distribute the app.
-4. Migrate the data layer to SQLite for safer concurrent access and simpler queries.
-
----
-
-## Contact / Next step
-
-If you'd like, I can:
-
-- Add a small `tests/` directory with unit tests for `utils.py` and a couple of integration tests.
-- Convert the app to use SQLite.
-- Create a small non-interactive test harness that runs a few admin and citizen actions automatically.
-
-Tell me which next step you want and I'll implement it.
