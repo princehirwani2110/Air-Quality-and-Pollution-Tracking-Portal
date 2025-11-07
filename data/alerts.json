@@ -22,5 +22,13 @@
     "status": "withdrawn",
     "issue_date": "2025-11-04",
     "expiry_date": "blank"
+  },
+  {
+    "alert_id": "alert_00391d7d",
+    "region": "Vellore",
+    "AQI_level": "210",
+    "status": "active",
+    "issue_date": "2025-11-07",
+    "expiry_date": "2025-02-14"
   }
 ]
